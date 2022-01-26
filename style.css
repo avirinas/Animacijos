@@ -1,0 +1,133 @@
+body{
+    background: #172774;
+}
+h2{
+  margin: 0 auto;
+  text-align: center;
+}
+/* ring loader 1*/
+.lds-ring1{
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring1 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 170px;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #FF0075;
+  border-radius: 50%;
+  animation: lds-ringS 4s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #FF0075 transparent transparent transparent;
+}
+.lds-ring1 div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring1 div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring1 div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+
+.lds-ring2{
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring2 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #FF0075;
+  border-radius: 50%;
+  animation: lds-ringS 4s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #FF0075 transparent transparent transparent;
+}
+.lds-ring2 div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring2 div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring2 div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+.lds-ring3{
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring3 div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: 1300px;
+  top: 170px;
+  width: 60px;
+  height: 60px;
+  border: 8px solid #FF0075;
+  border-radius: 50%;
+  animation: lds-ringS 4s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #FF0075 transparent transparent transparent;
+}
+.lds-ring3 div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring3 div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring3 div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ringS {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg); opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg); opacity: 0;
+  }
+}
+
+/* line1 */
+.light{
+  	position: relative;
+		top: 150px;
+}
+.line1{
+      margin: 110px;
+			position: absolute;
+			left: 0;
+			height: 10px;
+			background: #77D970;
+			animation: lineT 4s  infinite linear;
+}
+
+@keyframes lineT{
+	0%{
+		width: 0%;
+	}
+  50%{
+    width: 95%;opacity: 0;
+  }
+	100%{
+    width: 95%;opacity: 0;
+  }
+}
+
